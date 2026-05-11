@@ -23,7 +23,7 @@ export default function Home() {
         <section
           key={s.n}
           id={s.id}
-          className="relative flex h-screen w-screen items-center justify-center overflow-hidden bg-black"
+          className="relative flex h-screen w-screen items-center justify-center overflow-hidden bg-black pt-20"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
