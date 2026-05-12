@@ -11,7 +11,8 @@ export function StickyCta() {
       const total = doc.scrollHeight - window.innerHeight;
       if (total <= 0) return;
       const ratio = window.scrollY / total;
-      setVisible(ratio > 0.6 && ratio < 0.96);
+      const pastHero = window.scrollY > window.innerHeight * 0.9;
+      setVisible(pastHero && ratio < 0.96);
     }
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });

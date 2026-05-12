@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { href: "#reach", label: "Reach" },
   { href: "#partners", label: "Partners" },
   { href: "#team", label: "Team" },
+  { href: "#book", label: "Contact" },
 ];
 
 export function SiteNav() {
