@@ -61,10 +61,12 @@ export function SiteNav() {
 
           <div className="flex items-center gap-3">
             <a
-              href="#join"
+              href="https://cal.com/tijs-lerai/megathon"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gold hover:bg-gold-light text-black font-semibold text-sm px-5 py-2.5 rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
             >
-              Get Involved
+              Book a call
             </a>
             <button
               type="button"
@@ -131,11 +133,13 @@ export function SiteNav() {
             ))}
           </div>
           <a
-            href="#join"
+            href="https://cal.com/tijs-lerai/megathon"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setOpen(false)}
             className="mt-auto bg-gold hover:bg-gold-light text-black font-bold text-base px-6 py-3 rounded text-center transition-colors"
           >
-            Get Involved →
+            Book a call →
           </a>
           <p className="text-text-muted text-[10px] uppercase tracking-[0.25em] text-center">
             June 19–21, 2026 · Amsterdam
