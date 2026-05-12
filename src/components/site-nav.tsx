@@ -64,9 +64,11 @@ export function SiteNav() {
               href="https://cal.com/tijs-lerai/megathon"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gold hover:bg-gold-light text-black font-semibold text-sm px-5 py-2.5 rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
+              className="inline-flex items-center gap-2 rounded-full bg-gold hover:bg-gold-light text-black font-bold text-sm px-5 py-2.5 shadow-[0_6px_18px_-6px_rgba(212,168,67,0.55)] hover:shadow-[0_10px_26px_-8px_rgba(212,168,67,0.8)] transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
             >
+              <span className="text-base leading-none">◆</span>
               Book a call
+              <span aria-hidden>→</span>
             </a>
             <button
               type="button"
@@ -137,9 +139,11 @@ export function SiteNav() {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}
-            className="mt-auto bg-gold hover:bg-gold-light text-black font-bold text-base px-6 py-3 rounded text-center transition-colors"
+            className="mt-auto inline-flex items-center justify-center gap-2 rounded-full bg-gold hover:bg-gold-light text-black font-bold text-base px-6 py-3 shadow-[0_6px_18px_-6px_rgba(212,168,67,0.55)] hover:shadow-[0_10px_26px_-8px_rgba(212,168,67,0.8)] transition-all"
           >
-            Book a call →
+            <span className="text-lg leading-none">◆</span>
+            Book a call
+            <span aria-hidden>→</span>
           </a>
           <p className="text-text-muted text-[10px] uppercase tracking-[0.25em] text-center">
             June 19–21, 2026 · Amsterdam

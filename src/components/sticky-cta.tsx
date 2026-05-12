@@ -29,7 +29,7 @@ export function StickyCta() {
       rel="noopener noreferrer"
       aria-label="Book a call with Tijs"
       className={
-        "fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 rounded-full bg-gold text-black font-bold text-sm px-5 py-3 shadow-[0_10px_30px_-8px_rgba(212,168,67,0.6)] hover:bg-gold-light hover:shadow-[0_18px_40px_-10px_rgba(212,168,67,0.8)] transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-bg " +
+        "fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 rounded-full bg-gold hover:bg-gold-light text-black font-bold text-sm px-5 py-2.5 shadow-[0_6px_18px_-6px_rgba(212,168,67,0.55)] hover:shadow-[0_10px_26px_-8px_rgba(212,168,67,0.8)] transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-bg " +
         (visible
           ? "opacity-100 translate-y-0 pointer-events-auto"
           : "opacity-0 translate-y-3 pointer-events-none")
@@ -42,6 +42,7 @@ export function StickyCta() {
       <span className="text-base leading-none">◆</span>
       Book a call
       <span aria-hidden>→</span>
+
     </a>
   );
 }
