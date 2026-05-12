@@ -43,35 +43,35 @@ export default function Home() {
 
       <section
         id="book"
-        className="relative flex min-h-screen w-screen flex-col items-center justify-center overflow-hidden bg-black px-6 pt-32 pb-24 text-center"
+        className="relative w-screen overflow-hidden bg-black px-6 py-20 md:py-28 text-center"
       >
         <div
           aria-hidden
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(ellipse 70% 55% at 50% 45%, rgba(212,168,67,0.22) 0%, rgba(212,168,67,0.05) 38%, transparent 72%)",
+              "radial-gradient(ellipse 65% 55% at 50% 50%, rgba(212,168,67,0.18) 0%, rgba(212,168,67,0.04) 38%, transparent 72%)",
           }}
         />
         <span
           aria-hidden
-          className="pointer-events-none absolute top-[18%] left-[22%] h-1.5 w-1.5 rounded-full bg-gold"
-          style={{ boxShadow: "0 0 14px 3px rgba(212,168,67,0.6)" }}
+          className="pointer-events-none absolute top-[22%] left-[20%] h-1 w-1 rounded-full bg-gold"
+          style={{ boxShadow: "0 0 10px 2px rgba(212,168,67,0.55)" }}
         />
         <span
           aria-hidden
-          className="pointer-events-none absolute bottom-[28%] right-[24%] h-1.5 w-1.5 rounded-full bg-gold-light"
-          style={{ boxShadow: "0 0 14px 3px rgba(232,201,106,0.55)" }}
+          className="pointer-events-none absolute bottom-[24%] right-[22%] h-1 w-1 rounded-full bg-gold-light"
+          style={{ boxShadow: "0 0 10px 2px rgba(232,201,106,0.5)" }}
         />
 
-        <div className="relative z-10 max-w-4xl">
-          <p className="text-gold text-[11px] font-semibold tracking-[0.4em] uppercase mb-8">
+        <div className="relative z-10 mx-auto max-w-2xl">
+          <p className="text-gold text-[10px] md:text-[11px] font-semibold tracking-[0.4em] uppercase mb-5">
             ◆ Let&apos;s talk
           </p>
-          <h2 className="text-6xl md:text-8xl font-black leading-[1.02] tracking-tight mb-10">
-            Got <span className="text-gold gold-glow">20 minutes</span>?
+          <h2 className="text-[2.5rem] md:text-6xl font-black leading-[1.05] tracking-tight mb-5">
+            Got <span className="text-gold">20 minutes</span>?
           </h2>
-          <p className="text-white/75 text-xl md:text-2xl mb-14 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-white/70 text-base md:text-lg mb-10 leading-relaxed">
             We&apos;ll walk you through the deck, the sponsorship tiers, the
             build floor, and who&apos;s in the room. Pick a slot that works
             for your team.
@@ -81,14 +81,14 @@ export default function Home() {
             href="https://cal.com/tijs-lerai/megathon"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 rounded-full bg-gold hover:bg-gold-light text-black font-bold text-base md:text-lg px-8 py-4 shadow-[0_10px_30px_-8px_rgba(212,168,67,0.65)] hover:shadow-[0_18px_40px_-10px_rgba(212,168,67,0.85)] transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+            className="inline-flex items-center gap-3 rounded-full bg-gold hover:bg-gold-light text-black font-bold text-sm md:text-base px-7 py-3.5 shadow-[0_8px_24px_-8px_rgba(212,168,67,0.6)] hover:shadow-[0_14px_32px_-10px_rgba(212,168,67,0.8)] transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black"
           >
-            <span className="text-lg leading-none">◆</span>
+            <span className="text-base leading-none">◆</span>
             Book a call
             <span aria-hidden>→</span>
           </a>
 
-          <p className="text-text-muted text-[10px] uppercase tracking-[0.4em] mt-12">
+          <p className="text-text-muted text-[10px] uppercase tracking-[0.4em] mt-8">
             June 19–21, 2026 · Amsterdam · megathon.xyz
           </p>
         </div>
