@@ -64,7 +64,7 @@ export function SiteNav() {
               href="https://cal.com/tijs-lerai/megathon"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-gold hover:bg-gold-light text-black font-bold text-sm px-5 py-2.5 shadow-[0_6px_18px_-6px_rgba(212,168,67,0.55)] hover:shadow-[0_10px_26px_-8px_rgba(212,168,67,0.8)] transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
+              className="hidden md:inline-flex items-center gap-2 rounded-full bg-gold hover:bg-gold-light text-black font-bold text-sm px-5 py-2.5 shadow-[0_6px_18px_-6px_rgba(212,168,67,0.55)] hover:shadow-[0_10px_26px_-8px_rgba(212,168,67,0.8)] transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
             >
               <span className="text-base leading-none">◆</span>
               Book a call

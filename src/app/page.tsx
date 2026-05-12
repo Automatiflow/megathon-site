@@ -56,57 +56,26 @@ export default function Home() {
         <span
           aria-hidden
           className="pointer-events-none absolute top-[18%] left-[22%] h-1.5 w-1.5 rounded-full bg-gold"
-          style={{
-            boxShadow: "0 0 14px 3px rgba(212,168,67,0.6)",
-          }}
+          style={{ boxShadow: "0 0 14px 3px rgba(212,168,67,0.6)" }}
         />
         <span
           aria-hidden
           className="pointer-events-none absolute bottom-[28%] right-[24%] h-1.5 w-1.5 rounded-full bg-gold-light"
-          style={{
-            boxShadow: "0 0 14px 3px rgba(232,201,106,0.55)",
-          }}
+          style={{ boxShadow: "0 0 14px 3px rgba(232,201,106,0.55)" }}
         />
 
-        <div className="relative z-10 max-w-3xl">
-          <p className="text-gold text-xs font-semibold tracking-[0.4em] uppercase mb-6">
+        <div className="relative z-10 max-w-4xl">
+          <p className="text-gold text-[11px] font-semibold tracking-[0.4em] uppercase mb-8">
             ◆ Let&apos;s talk
           </p>
-          <h2 className="text-5xl md:text-7xl font-black leading-[1.05] mb-6">
-            Got <span className="text-gold">20 minutes</span>?
+          <h2 className="text-6xl md:text-8xl font-black leading-[1.02] tracking-tight mb-10">
+            Got <span className="text-gold gold-glow">20 minutes</span>?
           </h2>
-          <p className="text-white/70 text-lg md:text-xl mb-10 leading-relaxed">
-            We&apos;ll walk you through the sponsorship tiers, build-floor
-            access, who else is in the room, and what the weekend looks like
-            for your team. No slides. Just answers.
+          <p className="text-white/75 text-xl md:text-2xl mb-14 leading-relaxed max-w-2xl mx-auto">
+            We&apos;ll walk you through the deck, the sponsorship tiers, the
+            build floor, and who&apos;s in the room. Pick a slot that works
+            for your team.
           </p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12 text-left">
-            <div className="rounded-lg border border-gold/20 bg-white/[0.03] px-5 py-4">
-              <p className="text-gold text-xs font-semibold tracking-[0.2em] uppercase mb-2">
-                ◆ Tiers
-              </p>
-              <p className="text-white text-sm leading-snug">
-                €2K – €25K. Product in front of 500+ founders.
-              </p>
-            </div>
-            <div className="rounded-lg border border-gold/20 bg-white/[0.03] px-5 py-4">
-              <p className="text-gold text-xs font-semibold tracking-[0.2em] uppercase mb-2">
-                ◆ Window
-              </p>
-              <p className="text-white text-sm leading-snug">
-                Sponsor decisions locking now. Doors 19 June 2026.
-              </p>
-            </div>
-            <div className="rounded-lg border border-gold/20 bg-white/[0.03] px-5 py-4">
-              <p className="text-gold text-xs font-semibold tracking-[0.2em] uppercase mb-2">
-                ◆ Call
-              </p>
-              <p className="text-white text-sm leading-snug">
-                20-minute video call with Tijs. Sponsor-only.
-              </p>
-            </div>
-          </div>
 
           <a
             href="https://cal.com/tijs-lerai/megathon"
@@ -119,7 +88,7 @@ export default function Home() {
             <span aria-hidden>→</span>
           </a>
 
-          <p className="text-text-muted text-[10px] uppercase tracking-[0.4em] mt-10">
+          <p className="text-text-muted text-[10px] uppercase tracking-[0.4em] mt-12">
             June 19–21, 2026 · Amsterdam · megathon.xyz
           </p>
         </div>
