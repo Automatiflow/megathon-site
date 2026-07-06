@@ -13,3 +13,4 @@ live-*.jpg
 tsconfig.tsbuildinfo
 
 .vercel
+.claude/settings.local.json
